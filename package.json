@@ -1,0 +1,25 @@
+{
+  "name": "omnigent-overlays",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/proxy.mjs",
+    "build": "tsx tools/build-userscripts.ts",
+    "build:check": "tsx tools/build-userscripts.ts --check",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run build && npm run build:check && npm run verify:install",
+    "verify:install": "node scripts/verify-install.mjs",
+    "generate:manifest": "tsx tools/generate-manifest.ts",
+    "publish:overlays": "tsx tools/publish-overlays.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "http-proxy-3": "1.23.3"
+  }
+}

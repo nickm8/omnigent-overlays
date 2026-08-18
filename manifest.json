@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "overlays": [
+    {
+      "id": "palette-swapper",
+      "name": "Omnigent Palette Swapper",
+      "description": "Switcher for the app's colour palette",
+      "version": "0.1.2",
+      "entry": "overlays/palette-swapper.user.js",
+      "sha256": "d12f93df5475aefae408a3f983560a9d9d214856b0efadcc38675527f438d681",
+      "hosts": [
+        "*"
+      ],
+      "tags": [
+        "theme",
+        "appearance",
+        "productivity"
+      ],
+      "author": "dev",
+      "defaultEnabled": true
+    },
+    {
+      "id": "pinned-chats",
+      "name": "Omnigent Pinned Chats",
+      "description": "Managed pinned Omnigent chats.",
+      "version": "0.11.0",
+      "entry": "overlays/pinned-chats.user.js",
+      "sha256": "1ee198a5ca4a41f377f227d630abafc6ddf14bd761bc336987cc151196344326",
+      "hosts": [
+        "*"
+      ],
+      "tags": [
+        "sidebar",
+        "workspace",
+        "productivity"
+      ],
+      "author": "dev",
+      "defaultEnabled": true
+    },
+    {
+      "id": "project-focus",
+      "name": "Omnigent Project Focus",
+      "description": "Allows for filtering the sidebar's Projects list to a subset you want to focus on.",
+      "version": "0.2.2",
+      "entry": "overlays/project-focus.user.js",
+      "sha256": "0ddc621975f3b0fb338bc2aafe91e9801c39492b8c9ad45a98d838be573c48c8",
+      "hosts": [
+        "localhost",
+        "127.0.0.1"
+      ],
+      "tags": [
+        "sidebar",
+        "projects",
+        "declutter",
+        "productivity"
+      ],
+      "author": "dev",
+      "defaultEnabled": true
+    }
+  ],
+  "generatedAt": "2026-08-18T02:25:02.784Z",
+  "sourceRevision": "3a7459c7bf85f711a13d7d5383bd9c9ee3f21cb0"
+}
