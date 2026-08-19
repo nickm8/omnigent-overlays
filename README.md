@@ -1,4 +1,8 @@
-# omnigent-overlays
+# Omnigent Overlays
+
+<p align="center">
+  <img src="./assets/mascot-overlay.png" alt="omnigent-overlays mascot painting over a chat UI" width="300">
+</p>
 
 UI overlays for [Omnigent](https://github.com/omnigent-ai/omnigent).
 
