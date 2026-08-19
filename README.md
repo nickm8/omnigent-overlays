@@ -2,7 +2,7 @@
 
 UI overlays for [Omnigent](https://github.com/omnigent-ai/omnigent).
 
-Not a fork. A proxy sits in front of your Omnigent server and add the overlays you enable.
+Not a fork, A proxy in front of your Omnigent server to change how things look / function
 Basically allows you to customize your experience without needing to manage your own fork
 
 ## Install
