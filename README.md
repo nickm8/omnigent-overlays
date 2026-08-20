@@ -28,7 +28,3 @@ Local state lives in `~/.omnigent-overlays/`.
 
 Writing your own: add a TypeScript file under `src/scripts/`, register it in
 `tools/userscript-entries.ts`, and publish.
-
-## Licence
-
-MIT.
